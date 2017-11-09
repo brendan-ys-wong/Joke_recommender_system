@@ -8,4 +8,5 @@ Feature engineering: Used singular value decomposition to identify 27 latent fea
 
 Model selection: Examined results for Graphlab matrix factorization recommender model and item similarity recommender model
 
-Outcome: Final model item similarity recommender using pearson correlation similarity with a 12% better performance than random selection
+# Outcome
+Final model item similarity recommender using pearson correlation similarity with a 12% better performance than random selection
