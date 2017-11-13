@@ -1,5 +1,5 @@
 # Summary
-Built a joke recommender that recommends jokes a given user is most likely to enjoy, based on the University of California, Berkeley's Jester dataset containing 1.2 million joke ratings provided by 51K users.
+Built a joke recommender that recommends jokes to users trained on the University of California, Berkeley's Jester dataset containing 1.2 million joke ratings provided by 51K users. Recommender achieved 12% higher user ratings on recommended jokes compared with randome selection.
 
 # Methodology
 Data cleaning: Parsed HTML, stemmed words, and vectorized using term frequency-inverse document frequency (TF-IDF)
@@ -8,5 +8,5 @@ Feature engineering: Used singular value decomposition to identify 27 latent fea
 
 Model selection: Examined results for Graphlab matrix factorization recommender model and item similarity recommender model
 
-# Outcome
+# Results
 Final model item similarity recommender using pearson correlation similarity with a 12% better performance than random selection
