@@ -1,5 +1,5 @@
 # Summary
-Built a joke recommender that recommends jokes to users trained on the University of California, Berkeley's Jester dataset containing 1.2 million joke ratings provided by 51K users. Recommender achieved 12% higher user ratings on recommended jokes compared with randome selection.
+Built a joke recommender that recommends jokes to users trained on the University of California, Berkeley's Jester dataset containing 1.2 million joke ratings provided by 51K users. Recommender achieved 12% higher user ratings on recommended jokes compared with random selection.
 
 # Methodology
 Data cleaning: Parsed HTML, stemmed words, and vectorized using term frequency-inverse document frequency (TF-IDF)
